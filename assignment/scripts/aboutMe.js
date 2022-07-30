@@ -15,9 +15,12 @@ console.log(fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 
+var luckyNumber = 13;
+
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
+console.log('My name is', fullName, 'and I think', luckyNumber, 'is a winner!');
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
