@@ -16,7 +16,7 @@ console.log(fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 
-let luckyNumber = 2;
+let luckyNumber = 3;
 
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
@@ -61,10 +61,10 @@ else {
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 
-if (luckyNumber == 3){
+if (luckyNumber = 2 && adventurous == true) {
     console.log('Roll the dice!');
-} 
-else{
+}
+else {
     console.log(false);
 }
 
@@ -74,11 +74,15 @@ else{
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
-if (pets < allowedPets){
+if (pets < allowedPets) {
     console.log('I can have more pet!');
-} if (pets == allowedPets){
-    
+} else if (pets == allowedPets) {
+        console.log('I have enough pets!');
+} else if (pets > allowedPets) {
+        console.log('Oh no, I have too many pets!');
 }
+
+
 
 // STRETCH GOALS:
 
@@ -87,6 +91,8 @@ if (pets < allowedPets){
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
+let mostPets = 15;
+
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
@@ -96,5 +102,6 @@ if (pets < allowedPets){
 //      You'll need to research how to use switch statements!
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+
 
 
